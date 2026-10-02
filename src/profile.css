@@ -1,0 +1,21 @@
+@media (min-width: 901px) {
+  .skills-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+@media (min-width: 651px) and (max-width: 900px) {
+  .skills-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+.contact-email {
+  display: block;
+  width: fit-content;
+  margin-top: 14px;
+  color: #aebbc3;
+  font: 11px 'DM Mono', monospace;
+  text-decoration: underline;
+  text-decoration-color: rgba(116, 217, 210, .45);
+  text-underline-offset: 4px;
+}
+
+.contact-email:hover,
+.contact-email:focus-visible { color: var(--bright); }
